@@ -1,8 +1,5 @@
 package proyecto;
 import proyecto.out.production.proyecto.proyecto.Roles;
-//import proyecto.Empresa;
-//import proyecto.MovimientoDinero;
-//import proyecto.Empleado;
 
 import static java.lang.System.out;
 
@@ -12,7 +9,7 @@ public class Principal {
         empl_1.setNombre("Kadir Obando");
         empl_1.setCorreoEmpleado("kfobandom@unal.edu.co");
         empl_1.setIdEmpleado(12345678);
-        empl_1.setRolEmpleado(Roles.Administrador);
+        empl_1.setRolEmpleado(Roles.administrador);
         empl_1.setNit(111111111);
         System.out.println("EMPLEADO:");
         out.println("Nombre: "+ empl_1.getNombre());
@@ -34,7 +31,7 @@ public class Principal {
 
 
         MovimientoDinero mov_1 = new MovimientoDinero();
-        mov_1.setMonto(5000000);
+        mov_1.setMonto(-5000000);
         mov_1.setConcepto("Pago Servicios Publicos");
         mov_1.setIdEmpleado(12345678);
         mov_1.setNit(111111111);
